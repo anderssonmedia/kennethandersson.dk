@@ -1,0 +1,190 @@
+@import "reset.css";
+@import "icons.css";
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic);
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url(../images/bg_image.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: rgba(255, 255, 255, .9);
+	line-height: 1.5;
+}
+
+.wrapper {
+	width: 780px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 60px -60px 60px;
+}
+
+h1 {
+	font-family: 'Oswald', serif;
+	font-size: 7em;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 50px 0 0 0;
+	margin: 0;
+}
+
+h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav {
+	width: 100%;
+	padding: 8px 0;
+	border-bottom: 1px dashed rgba(255, 255, 255, .3);
+	margin-bottom: 30px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.3em;
+}
+
+a {
+	color: rgba(255, 255, 255, .80);
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+a.active {
+	color: #fff;
+}
+
+section {
+	margin: 20px 0;
+}
+
+h3 {
+	margin: 0 0 10px 0;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+table.resume {
+	width: 100%;
+}
+
+table.resume td {
+	padding: 1px 0;
+}
+
+table.resume td.year {
+	width: 50px;
+}
+
+table.resume td.title {
+	width: 235px;
+}
+
+table.resume td.role {
+	width: 165px;
+}
+
+table.resume td.production {
+	width: auto;
+}
+
+table.education {
+	width: 100%;
+}
+
+table.education td {
+	padding: 10px 0 1px 0;
+}
+
+table.education td:first-child {
+	padding-top: 1px;
+}
+
+table.education td.year {
+	width: 90px;
+}
+
+table.education td.title {
+	width: auto;
+}
+
+table.education td.info {
+	width: auto;
+	font-size: 11px;
+	padding-top: 0;
+}
+
+table.skills {
+	width: 100%;
+}
+
+table.skills td {
+	padding: 1px 0;
+}
+
+table.skills td.skill {
+	width: 160px;
+	font-weight: bold;
+}
+
+table.skills td.value {
+	width: auto;
+}
+
+tr.highlighted {
+	font-weight: bold;
+}
+
+.grey {
+	color: rgba(255, 255, 255, .5);
+}
+
+.lead {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+footer, .push_footer {
+	height: 60px;
+	margin-top: 30px;
+}
+
+footer {
+	width: 780px;
+	margin: 0 60px;
+	overflow: hidden;
+}
+
+.footer_links li {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.social_icon {
+	position: relative;
+	top: 3px;
+}
+
+.video {
+	margin-bottom: 20px;
+	width: 780px;
+	height: 438px;
+}
